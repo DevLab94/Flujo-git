@@ -27,3 +27,9 @@ Agregar remotos
 
 Eliminar Remotos
 `git remote remove Flujo-git`
+
+## Creando etiquetas
+
+Es necesario entender que las etiquetas(release) solo deben ser creadas a partir de la rama master como buena practica. 
+
+Para entender como llamar o categorizar a tus versiones te recomendamos un articulo https://ed.team/blog/como-se-deciden-las-versiones-del-software
