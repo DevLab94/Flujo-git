@@ -17,3 +17,13 @@ Se recomienda crear una organizacion que sea la propietaria del repositorio prin
 
 Para crear un Fork debes iniciar secion en Github y luego ingresar a la landing page del proyecto del que quieras sacar tu Fork.
 
+## Como trabajar con 2 o mas remotos
+
+Listar remotos
+`git remote -v`
+
+Agregar remotos
+`git remote add Flujo-git https://github.com/DevLab94/Flujo-git.git`
+
+Eliminar Remotos
+`git remote remove Flujo-git`
