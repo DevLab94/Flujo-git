@@ -33,3 +33,20 @@ Eliminar Remotos
 Es necesario entender que las etiquetas(release) solo deben ser creadas a partir de la rama master como buena practica. 
 
 Para entender como llamar o categorizar a tus versiones te recomendamos un articulo https://ed.team/blog/como-se-deciden-las-versiones-del-software
+
+
+## PASOS A SEGUIR PARA TRABAJAR EN EQUIPO
+1: Crear una Organizacion en GITHub (Esto lo hace el administrador del proyecto)
+2: Crear un Proyecto dentro de la Organizacion (Esto lo hace el administrador del proyecto)
+3: Si el Proyecto es privado, agregar a todos los colaboradores
+4: Cada colaborador debe hacer un Fork del proyecto Original en su cuenta de GITHub
+5: Cada desarrollador debe clonar su Fork en su PC
+6: El desarrollador debe agregar los remotos correspondientes del proyecto Original
+7: Se debe asegurar que todo este correctamente sincronizado
+8: Se debe crear una nueva rama cada ves que vaya a trabajar una nueva funcionalidad
+9: Una ves terminada la nueva funcionalidad, el desarrollador debe subir(push) esa rama al Fork de su cuenta
+10: En GITHub le aparecera la opcion de crear un Pull Request
+11: Una ves creado el Pull Request el administrador del proyecto lo revisara
+12: Se aprueba o se rechaza el Pull request
+13: Cada desarrollador debe revisar constantemente (fetch) si no hubo cambios en el proyecto original
+14: Se debe eliminar las ramas que ya fueron aprobadas o rechazadas
